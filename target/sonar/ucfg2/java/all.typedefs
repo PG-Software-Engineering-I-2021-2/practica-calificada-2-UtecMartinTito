@@ -18,24 +18,25 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 
 hashCode()java.lang.Object#hashCode()I%
 ProfesorInterfacejava.lang.Object∆
-	TeacherTCProfesorInterfacejava.lang.Object
-Sueldo()TeacherTC#Sueldo()IE
-<init>(ILjava/lang/String;)&TeacherTC#<init>(ILjava/lang/String;)V,
-Name()"TeacherTC#Name()Ljava/lang/String;∆
-	TeacherTPProfesorInterfacejava.lang.Object
-Sueldo()TeacherTP#Sueldo()IE
-<init>(ILjava/lang/String;)&TeacherTP#<init>(ILjava/lang/String;)V,
-Name()"TeacherTP#Name()Ljava/lang/String;÷
-AdministradorProfesorInterfacejava.lang.Object#
-Sueldo()Administrador#Sueldo()II
-<init>(ILjava/lang/String;)*Administrador#<init>(ILjava/lang/String;)V0
-Name()&Administrador#Name()Ljava/lang/String;‘
+	TeacherTCProfesorInterfacejava.lang.Object,
+name()"TeacherTC#name()Ljava/lang/String;E
+<init>(ILjava/lang/String;)&TeacherTC#<init>(ILjava/lang/String;)V
+sueldo()TeacherTC#sueldo()I∆
+	TeacherTPProfesorInterfacejava.lang.Object,
+name()"TeacherTP#name()Ljava/lang/String;E
+<init>(ILjava/lang/String;)&TeacherTP#<init>(ILjava/lang/String;)V
+sueldo()TeacherTP#sueldo()I÷
+AdministradorProfesorInterfacejava.lang.Object0
+name()&Administrador#name()Ljava/lang/String;I
+<init>(ILjava/lang/String;)*Administrador#<init>(ILjava/lang/String;)V#
+sueldo()Administrador#sueldo()I‘
 Pairjava.lang.Object)
 first()Pair#first()Ljava/lang/Object;+
 second()Pair#second()Ljava/lang/Object;b
-,<init>(Ljava/lang/Object;Ljava/lang/Object;)2Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)VÓ
+,<init>(Ljava/lang/Object;Ljava/lang/Object;)2Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)Vù
 	Principaljava.lang.ObjectE
-imprimirNombresProfesores()&Principal#imprimirNombresProfesores()VA
+imprimirNombresProfesores()&Principal#imprimirNombresProfesores()V-
+extracted(ZZFI)Principal#extracted(ZZFI)FA
 main([Ljava/lang/String;)$Principal#main([Ljava/lang/String;)V!
 	<init>(I)Principal#<init>(I)VM
 isHasToIncreaseOneExtraPoint(Z)*Principal#isHasToIncreaseOneExtraPoint(Z)ZS

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PrincipalTest" time="1.898" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PrincipalTest" time="1.959" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\Martin\AppData\Local\Temp\surefire1402758664013260770\surefirebooter7521864158261696631.jar C:\Users\Martin\AppData\Local\Temp\surefire1402758664013260770 2021-12-16T20-26-25_599-jvmRun1 surefire7411842024546999735tmp surefire_011445422152704763857tmp"/>
+    <property name="sun.java.command" value="C:\Users\Martin\AppData\Local\Temp\surefire7533779798172427709\surefirebooter7497001639879035049.jar C:\Users\Martin\AppData\Local\Temp\surefire7533779798172427709 2021-12-16T20-49-36_683-jvmRun1 surefire2110811553627972822tmp surefire_02051380018047493046tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\UTEC_Java\PracticaCalificada2\target\test-classes;C:\UTEC_Java\PracticaCalificada2\target\classes;C:\Users\Martin\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Martin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Martin\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Martin\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Martin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Martin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Martin\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Martin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Martin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Martin\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Martin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Martin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Martin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Martin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Martin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Martin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Martin\.m2\repository\org\springframework\spring-beans\5.3.10\spring-beans-5.3.10.jar;C:\Users\Martin\.m2\repository\org\springframework\spring-core\5.3.10\spring-core-5.3.10.jar;C:\Users\Martin\.m2\repository\org\springframework\spring-jcl\5.3.10\spring-jcl-5.3.10.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Martin\AppData\Local\Temp\surefire1402758664013260770\surefirebooter7521864158261696631.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Martin\AppData\Local\Temp\surefire7533779798172427709\surefirebooter7497001639879035049.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
@@ -60,17 +60,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes" classname="PrincipalTest" time="0.055"/>
+  <testcase name="calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes" classname="PrincipalTest" time="0.046"/>
   <testcase name="calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes" classname="PrincipalTest" time="0"/>
-  <testcase name="fail_given_different_exam_grades_but_not_attending_the_minimum_classes" classname="PrincipalTest" time="0.001"/>
+  <testcase name="fail_given_different_exam_grades_but_not_attending_the_minimum_classes" classname="PrincipalTest" time="0"/>
   <testcase name="fail_given_odd_exam_grades_but_attending_the_minimum_classes" classname="PrincipalTest" time="0"/>
-  <testcase name="fail_given_one_single_exam_but_not_attending_the_minimum_classes" classname="PrincipalTest" time="0"/>
-  <testcase name="fail_given_there_are_no_exams" classname="PrincipalTest" time="0.001"/>
+  <testcase name="fail_given_one_single_exam_but_not_attending_the_minimum_classes" classname="PrincipalTest" time="0.002"/>
+  <testcase name="fail_given_there_are_no_exams" classname="PrincipalTest" time="0"/>
   <testcase name="fail_when_there_are_no_exams_and_has_not_attended_the_minimum_classes" classname="PrincipalTest" time="0"/>
-  <testcase name="increase_one_extra_point_if_there_is_any_benevolent_teacher_in_the_year_to_calculate_grades" classname="PrincipalTest" time="0.001"/>
+  <testcase name="increase_one_extra_point_if_there_is_any_benevolent_teacher_in_the_year_to_calculate_grades" classname="PrincipalTest" time="0"/>
   <testcase name="maintain_10_as_the_maximum_grade_even_if_increasing_one_extra_point" classname="PrincipalTest" time="0"/>
-  <testcase name="not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades" classname="PrincipalTest" time="0"/>
-  <testcase name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes" classname="PrincipalTest" time="0.001"/>
+  <testcase name="not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades" classname="PrincipalTest" time="0.001"/>
+  <testcase name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes" classname="PrincipalTest" time="0"/>
   <testcase name="validate_all_exam_grades_weight_below_100" classname="PrincipalTest" time="0"/>
-  <testcase name="validate_all_exam_grades_weight_over_100" classname="PrincipalTest" time="0"/>
+  <testcase name="validate_all_exam_grades_weight_over_100" classname="PrincipalTest" time="0.001"/>
 </testsuite>

@@ -1,5 +1,3 @@
-import org.springframework.beans.factory.annotation.Autowired;
-
 import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
@@ -44,23 +42,27 @@ public class Principal {
                 gradesSum += (examGrade.first() * examGrade.second() / 100);
                 gradesWeightSum += examGrade.first();
             }
-            if (gradesWeightSum == 100) {
-                if (hasReachedMinimumClasses) {
-                    if (hasToIncreaseOneExtraPoint) {
-                        return Float.min(10f, gradesSum + 1);
-                    } else {
-                        return gradesSum;
-                    }
-                } else {
-                    return 0f;
-                }
-            } else if (gradesWeightSum > 100) {
-                return -1f;
-            } else {
-                return -2f;
-            }
+            return extracted(hasReachedMinimumClasses, hasToIncreaseOneExtraPoint, gradesSum, gradesWeightSum);
         } else {
             return 0f;
+        }
+    }
+
+    private float extracted(boolean hasReachedMinimumClasses, boolean hasToIncreaseOneExtraPoint, float gradesSum, int gradesWeightSum) {
+        if (gradesWeightSum == 100) {
+            if (hasReachedMinimumClasses) {
+                if (hasToIncreaseOneExtraPoint) {
+                    return Float.min(10f, gradesSum + 1);
+                } else {
+                    return gradesSum;
+                }
+            } else {
+                return 0f;
+            }
+        } else if (gradesWeightSum > 100) {
+            return -1f;
+        } else {
+            return -2f;
         }
     }
 
@@ -69,16 +71,12 @@ public class Principal {
             if (!(yearToCalculate != yearlyTeachers.getKey())) {
                 List<Pair<ProfesorInterface, Boolean>> teachers = yearlyTeachers.getValue();
                 for (Pair<ProfesorInterface, Boolean> teacher : teachers) {
-                    if (teacher.second() == false) {
+                    if (teacher.second() != true || teacher.first().tipo != 1) {
                         continue;
                     }else{
-                        if (teacher.first()._Tipo == 1) {
-                            hasToIncreaseOneExtraPoint = true;
-                        }
+                        hasToIncreaseOneExtraPoint = true;
                     }
                 }
-            } else {
-                continue;
             }
         }
         return hasToIncreaseOneExtraPoint;
@@ -89,15 +87,16 @@ public class Principal {
                     List<Pair<ProfesorInterface, Boolean>> teachers = yearlyTeachers.getValue();
                     for (Pair<ProfesorInterface, Boolean> teacher : teachers) {
                         if (teacher.second() == true) {
-                            System.out.println(teacher.first().Name());
+                            System.out.println(teacher.first().name());
                         }
                     }
             }
     }
 
     public static void main(String[] args) {
-     System.out.println("Hola");
-     //@Autowired
-     //imprimirNombresProfesores();
+        /*
+        This is a comment
+        This is another comment
+        */
     }
 }

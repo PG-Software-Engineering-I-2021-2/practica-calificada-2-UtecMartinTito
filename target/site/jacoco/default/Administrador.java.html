@@ -3,20 +3,16 @@
     private int tipo;
 <span class="nc" id="L4">    private int salarioBaseMensual =2000;</span>
 <span class="nc" id="L5">    private int comision = 500;</span>
-    //private int bonus = 100;
-    static final int ProfesorTP = 0;
-    static final int ProfesorTC = 1;
-    static final int Administrativo = 2;
-<span class="nc" id="L10">    Administrador(int type, String nombre) {</span>
-<span class="nc" id="L11">        this.tipo = type;</span>
-<span class="nc" id="L12">        this.nombre = nombre;</span>
-<span class="nc" id="L13">    }</span>
-    public int Sueldo() {
-<span class="nc" id="L15">        return salarioBaseMensual + comision;</span>
+<span class="nc" id="L6">    Administrador(int type, String nombre) {</span>
+<span class="nc" id="L7">        this.tipo = type;</span>
+<span class="nc" id="L8">        this.nombre = nombre;</span>
+<span class="nc" id="L9">    }</span>
+    public int sueldo() {
+<span class="nc" id="L11">        return salarioBaseMensual + comision;</span>
 
     }
-    public String Name(){
-<span class="nc" id="L19">        return nombre;</span>
+    public String name(){
+<span class="nc" id="L15">        return nombre;</span>
     }
 
 }
