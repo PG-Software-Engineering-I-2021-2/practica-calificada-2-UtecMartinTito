@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+practica-calificada-2-UtecMartinTito,default,ProfesorInterface,3,0,0,0,1,0,1,0,1,0
+practica-calificada-2-UtecMartinTito,default,TeacherTC,9,15,0,0,2,6,2,1,2,1
+practica-calificada-2-UtecMartinTito,default,Administrador,24,0,0,0,8,0,3,0,3,0
+practica-calificada-2-UtecMartinTito,default,Student,33,0,4,0,10,0,5,0,2,0
+practica-calificada-2-UtecMartinTito,default,Principal,53,235,8,20,12,45,7,12,2,3
+practica-calificada-2-UtecMartinTito,default,TeacherTP,24,0,0,0,8,0,3,0,3,0
+practica-calificada-2-UtecMartinTito,default,Pair,0,15,0,0,0,6,0,3,0,3

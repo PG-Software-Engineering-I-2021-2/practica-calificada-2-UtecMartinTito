@@ -1,0 +1,105 @@
+
+*Principal#isHasToIncreaseOneExtraPoint(Z)ZG
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaC C(0"12*˘
+2G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaD D(VÄ
+~
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaD D(V%
+yearlyTeachersjava.util.Map$Entry"__id*
+""û
+õ
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaD D(V%
+yearlyTeachersjava.util.Map$Entry"
+__arrayGet*
+
+%1java.util.Set*
+""*
+11
+1*“
+4G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaG G(=j
+h
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaG G(=
+teacherPair"__id*
+""è
+å
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaG G(=
+teacherPair"
+__arrayGet*
+
+teachersjava.util.List*
+""*
+2
+8*€
+6G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaK K(#°û
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaK K(+
+%5ProfesorInterface"Pair#first()Ljava/lang/Object;*
+
+teacherPair2first()d
+b
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaK K(1	
+%6int"__id*
+""*
+4*˙
+8G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaH H(£†
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaH H((
+%4java.lang.Boolean"Pair#second()Ljava/lang/Object;*
+
+teacherPair2second()*
+4
+6*ß
+10G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaFB F(P…∆
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaFB F([
+%3java.util.List"0java.util.Map$Entry#getValue()Ljava/lang/Object;*'
+%
+yearlyTeachersjava.util.Map$Entry2
+getValue()Ü
+É
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaF F(\
+teachersjava.util.List"__id*
+
+%3java.util.List*
+4*°
+11G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaE E(!»≈
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaE% E(<
+%2java.lang.Integer".java.util.Map$Entry#getKey()Ljava/lang/Object;*'
+%
+yearlyTeachersjava.util.Map$Entry2getKey()*
+2
+10*ë
+12G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaDY D(iå
+â
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaDY D(i
+%0java.util.Map"__id*#*!
+	Principal"
+allYearsTeachers≠™
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaDY D(t
+%1java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
+
+%0java.util.Map2
+entrySet()*
+2*ü
+1G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaT T()"Q
+G
+=C:/UTEC_Java/PracticaCalificada2/src/main/java/Principal.javaT T(*
+"":
+""B
+	Principal
